@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box-container{
+    position: relative;
+    top: 0;
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box{
+    position: absolute;
+    /* top: 50%;
+    margin-bottom: -50px;
+    left: 50%;
+    margin-right: -50px;
+    width: 50px; */
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all ease-in-out 500ms;
+}
+
+.box-controller{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -135px;
+}
+
+.box-controller > div{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+    width: 35px;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.8);
+    cursor: pointer;
+    z-index: 9123546;
+}
+
+.box-controller > div:hover{
+    background-color: rgba(252, 252, 252, 0.9);
+}
